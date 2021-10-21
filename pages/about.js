@@ -1,9 +1,15 @@
-const about = () => {
-    return (
-        <div>
-            <h1>About</h1>
-        </div>
-    )
-}
+import Head from 'next/head';
 
-export default about
+const about = () => {
+  return (
+    <div>
+      <Head>
+        <title>About me trying</title>
+        <meta name="keywords" content="web development, programming" />
+      </Head>
+      <h1>About</h1>
+    </div>
+  );
+};
+
+export default about;
